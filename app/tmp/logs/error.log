@@ -1,0 +1,14 @@
+2015-09-08 15:36:31 Error: [MissingControllerException] Controller class AccountController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-08 15:36:57 Error: [MissingControllerException] Controller class AccountController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-08 15:58:55 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-08 16:11:02 Error: [MissingActionException] Action AccountController::index() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AccountController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
