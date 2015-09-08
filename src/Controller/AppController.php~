@@ -42,3 +42,10 @@ class AppController extends Controller
         $this->loadComponent('Flash');
     }
 }
+
+use App\Controller\AppController;
+
+class	FrontController extends AppControler
+{
+
+}

@@ -11,3 +11,55 @@ Stack Trace:
 #1 {main}
 
 
+2015-09-08 12:33:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Front could not be found.
+Exception Attributes: array (
+  'class' => 'Front',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /website/front/menu_gauche/main.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-09-08 12:33:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Front could not be found.
+Exception Attributes: array (
+  'class' => 'Front',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /website/front/menu_gauche/main.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-09-08 12:34:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Front could not be found.
+Exception Attributes: array (
+  'class' => 'Front',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /website/front/menu_gauche/main.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-09-08 12:34:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Front could not be found.
+Exception Attributes: array (
+  'class' => 'Front',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /website/front/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

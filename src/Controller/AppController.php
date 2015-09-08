@@ -45,7 +45,7 @@ class AppController extends Controller
 
 use App\Controller\AppController;
 
-class	FrontController extends AppControler
+class	FrontController extends AppController
 {
 
 }
