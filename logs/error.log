@@ -102,3 +102,18 @@ Stack Trace:
 #1 {main}
 
 
+2015-09-08 12:43:11 Error: [Cake\Controller\Exception\MissingActionException] Action FrontController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'FrontController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /website/front/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FrontController))
+#2 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
