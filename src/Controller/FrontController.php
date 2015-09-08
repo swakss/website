@@ -9,4 +9,9 @@ class FrontController extends AppController
 	{
 		
 	}
+	
+	public function menu_gauche()
+	{
+	
+	}
 }

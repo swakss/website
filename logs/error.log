@@ -131,3 +131,33 @@ Stack Trace:
 #5 {main}
 
 
+2015-09-08 12:49:49 Error: [Cake\Controller\Exception\MissingActionException] Action FrontController::main.html() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'FrontController',
+  'action' => 'main.html',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /website/front/main.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FrontController))
+#2 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-09-08 12:50:46 Error: [Cake\Controller\Exception\MissingActionException] Action FrontController::menu_gauche() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'FrontController',
+  'action' => 'menu_gauche',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /website/front/menu_gauche/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Applications/MAMP/htdocs/website/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\FrontController))
+#2 /Applications/MAMP/htdocs/website/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
