@@ -2,11 +2,9 @@
 	/**
 	* 
 	*/
-	class PostsController extends AppController
+	class AccountController extends AppController
 	{
-		public function index(){
-			debug($this->request);
-			debug($this->request->controller);
-			die("Salut");
+		public function add(){
 		}
 	}
+?>
