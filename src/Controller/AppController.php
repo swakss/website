@@ -43,9 +43,11 @@ class AppController extends Controller
     }
 }
 
+namespace App\Controller;
+
 use App\Controller\AppController;
 
-class	FrontController extends AppController
+class FrontController extends AppController
 {
 
 }
