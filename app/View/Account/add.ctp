@@ -1,1 +1,1 @@
-ici mon texte
+Bienvenu <?= $this->Session->read('Auth.User.username') ?>

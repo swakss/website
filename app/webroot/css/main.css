@@ -1,0 +1,81 @@
+body {
+	font-family: "Raleway", arial;
+	background-color: red;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: #4C4C4C;
+}
+
+nav[name="leftmenu"] {
+	background-color: white;
+	width: 320px;
+	height: 3000px;
+	position: fixed;
+	box-shadow: 1px 0px 30px #EAEAEA;
+}
+
+div[name="page"] {
+	position: absolute;
+	left: 320px;
+}
+
+ul[name="liste-menu-gauche"] {
+	padding: 0 0 0 0;
+}
+
+ul[name="liste-menu-gauche"] > li {
+	padding: 15px;
+	padding-left: 20%;
+	border-color: #EAEAEA;
+	border-width: 1px;
+	border-top-style: solid;
+	list-style-type: none;
+}
+
+ul[name="liste-menu-gauche"] > li:last-child {
+	border-bottom-style: solid; 
+}
+
+ul[name="liste-menu-gauche"] > li:hover {
+	color: #6796BF; 
+}
+
+ul[name="liste-menu-gauche"] > .selected {
+	color: #6796BF;
+	border-right-style: solid;
+	border-right-color: #6796BF;
+	border-right-width: 5px;
+}
+
+video {
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	/*height: 700px;*/
+}
+
+div[name="jumbotron-inscription"] {
+	width: 400px;
+	padding: 10px !important;
+	text-align: center;
+}
+
+div[name="container-inscription"] {
+	width: 250px !important;
+	position: absolute;
+	z-index: 10;
+	top: 200px;
+	left: 300px;
+}
+
+h2[name="titre-inscription"] {
+	margin-top: 0px;
+}
+
+form[name="form-inscription"] {
+	margin-bottom: 0px;
+}
+
+div[name="checkbox-inscription"] {
+	margin-bottom: 0px !important;
+}

@@ -9,5 +9,9 @@ class AccountController extends AppController
 	{
 		# code...
 	}
+
+	public function beforeFilter(){
+		parent::beforeFilter();
+	}
 }
 ?>

@@ -12,3 +12,451 @@
 #1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AccountController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-09-09 11:49:32 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-09 11:58:43 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\website\app\View\Users\login.ctp, line 4]
+2015-09-09 11:58:43 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 4, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 4, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 12:06:37 Error: Fatal Error (4): syntax error, unexpected ''password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp\www\website\app\Controller\UsersController.php, line 6]
+2015-09-09 12:06:37 Error: [FatalErrorException] syntax error, unexpected ''password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 12:06:38 Error: Fatal Error (4): syntax error, unexpected ''password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp\www\website\app\Controller\UsersController.php, line 6]
+2015-09-09 12:06:38 Error: [FatalErrorException] syntax error, unexpected ''password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 12:06:51 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp\www\website\app\Controller\UsersController.php, line 4]
+2015-09-09 12:06:51 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 12:07:19 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp\www\website\app\Controller\UsersController.php, line 4]
+2015-09-09 12:07:19 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\web...', 4, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 12:11:51 Error: [MissingActionException] Action AccountController::index() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AccountController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-09 12:11:55 Error: [MissingActionException] Action AccountController::index() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AccountController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-09 12:15:19 Error: [MissingControllerException] Controller class AccouController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-09 12:15:31 Error: [MissingActionException] Action AccountController::index() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AccountController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-09 12:15:36 Error: [MissingViewException] View file "C:\wamp\www\website\app\View\Users\logout.ctp" is missing.
+#0 C:\wamp\www\website\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-09 12:16:34 Error: [MissingViewException] View file "C:\wamp\www\website\app\View\Users\logout.ctp" is missing.
+#0 C:\wamp\www\website\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-09 14:28:07 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:07 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:12 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:12 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:17 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:17 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:23 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:23 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:28 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:28 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:33 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:33 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:38 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:38 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:43 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:43 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:48 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:48 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:28:54 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 65]
+2015-09-09 14:28:54 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 65, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:30:56 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 48]
+2015-09-09 14:30:56 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 48, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 48, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:32:11 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 67]
+2015-09-09 14:32:11 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 67, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 67, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:32:56 Error: Fatal Error (4): syntax error, unexpected ':', expecting ';' in [C:\wamp\www\website\app\View\Layouts\default.ctp, line 51]
+2015-09-09 14:32:56 Error: [FatalErrorException] syntax error, unexpected ':', expecting ';'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 51, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 51, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:39:25 Error: [MissingViewException] View file "C:\wamp\www\website\app\View\Users\logout.ctp" is missing.
+#0 C:\wamp\www\website\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-09 14:40:11 Error: [MissingViewException] View file "C:\wamp\www\website\app\View\Users\logout.ctp" is missing.
+#0 C:\wamp\www\website\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-09 14:52:56 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\website\app\View\Users\login.ctp, line 6]
+2015-09-09 14:52:56 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 6, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-09 14:58:27 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\website\app\Controller\UsersController.php, line 11]
+2015-09-09 14:58:27 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\wamp\www\website\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 11, Array)
+#2 C:\wamp\www\website\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\web...', 11, Array)
+#3 C:\wamp\www\website\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-10 12:21:29 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-10 12:25:03 Error: [MissingViewException] View file "C:\wamp\www\website\app\View\Home\index.ctp" is missing.
+#0 C:\wamp\www\website\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-10 14:59:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\wamp\www\website\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\wamp\www\website\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\website\lib\Cake\Model\Model.php(3169): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\website\lib\Cake\Model\Model.php(1096): Model->setDataSource('default')
+#4 C:\wamp\www\website\lib\Cake\Model\Model.php(3191): Model->setSource('users')
+#5 C:\wamp\www\website\lib\Cake\Model\Model.php(1305): Model->getDataSource()
+#6 C:\wamp\www\website\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\wamp\www\website\lib\Cake\View\Helper\FormHelper.php(444): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\website\app\View\Users\login.ctp(9): FormHelper->create('User')
+#9 C:\wamp\www\website\lib\Cake\View\View.php(923): include('C:\\wamp\\www\\web...')
+#10 C:\wamp\www\website\lib\Cake\View\View.php(886): View->_evaluate('C:\\wamp\\www\\web...', Array)
+#11 C:\wamp\www\website\lib\Cake\View\View.php(476): View->_render('C:\\wamp\\www\\web...')
+#12 C:\wamp\www\website\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#13 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-09-10 14:59:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-10 14:59:10 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 14:59:53 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:01:22 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:02:28 Error: [MissingActionException] Action UsersController::home() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:02:28 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:02:36 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:02:39 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:08:02 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:08:38 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:09:45 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:10:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:10:46 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:10:55 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:10:58 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:11:26 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:11:52 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:12:44 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:13:02 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:13:14 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:13:23 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:21 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:27 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:28 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:29 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:51 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:20:51 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:21:31 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:21:32 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:23:26 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:27:56 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:28:20 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:28:23 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:28:25 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:28:27 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:29:03 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:34:11 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:40:55 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:41:33 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:43:00 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:44:31 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:44:41 Error: [MissingActionException] Action HomeController::img() could not be found.
+#0 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-10 15:47:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
