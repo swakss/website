@@ -58,6 +58,7 @@
 		
 		<div name="page">
 			<video "width: 1800px" "height: 700px" src="http://avada.tfusion.netdna-cdn.com/avada/agency/wp-content/uploads/sites/11/2014/11/home_app_creation.mp4" preload="auto" loop="" autoplay="" muted=""></video>
+			<?= $this->fetch('content'); ?>
 		</div>	
 	</body>
 </html>
